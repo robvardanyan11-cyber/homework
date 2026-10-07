@@ -1,15 +1,13 @@
 #include <stdio.h>
 
 int main(){
-	int a, b, temp;
-	printf("Enter the numbers");
-	scanf("%d %d", &a, &b);
-
-	temp = a;
-	a = b;
-	b = temp;
-
-	printf("%d %d\n", a, b);
-
-	return 0;
-}
+	int a = 0;
+	printf("Enter the number");
+	scanf("%d", &a);
+	if (a % 2 == 0){
+		printf("Even");
+	}	else{
+			printf("Odd");
+		}
+		return 0;
+	}
